@@ -1,7 +1,7 @@
 // Middleware para manejar opciones y encabezados de las solicitudes
 const handleOptions = (req, res, next) => {
   // Configuración de encabezados comunes
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // Cambiar según el cliente
+  res.header("Access-Control-Allow-Origin", "http://localhost:5173"); // Cambiar según el cliente
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
